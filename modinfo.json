@@ -1,0 +1,8 @@
+{
+  "type": "code",
+  "modid": "timepiece",
+  "name": "Timepiece",
+  "description" : "Adds a few items for keeping time.",
+  "author": "Landar",
+  "version": "1.0.0",
+}

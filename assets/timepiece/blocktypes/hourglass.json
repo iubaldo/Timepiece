@@ -1,0 +1,31 @@
+{
+	"code": "hourglass",
+	"class": "BlockHourglass",
+	"entityClass": "Hourglass",
+	"creativeinventory": { 
+		"general": ["*"],
+		"timepiece": ["*"]
+	},
+	"behaviors": [{"name": "Container"}],
+	"shape": {
+		"base": "block/hourglass"
+	},
+	"blockmaterial": "Wood",
+	"drawtype": "json",
+	"textures": {
+		"quartz": { "base": "game:block/glass/quartz" },
+		"inner side": { "base": "game:block/wood/bucket/inner side" }
+	},
+	"collisionSelectionBox": { "x1": 0.1875, "y1": 0, "z1": 0.1875,   "x2": 0.8125, "y2": 0.75, "z2": 0.8125 },
+	"resistance": 3,
+	"sounds": {
+		"place": "game:block/loosestone1",
+		"walk": "game:walk/stone1"
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"sideopaque": {
+		"all": false
+	}
+}

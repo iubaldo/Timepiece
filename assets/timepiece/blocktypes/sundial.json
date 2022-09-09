@@ -1,0 +1,31 @@
+{
+	"code": "sundial",
+	"behaviors": [{"name": "Sundial"}],
+	"creativeinventory": { 
+		"general": ["*"],
+		"timepiece": ["*"]
+	},
+	"blockmaterial": "Stone",
+	"drawtype": "json",
+	"shape": {
+		"base": "block/sundial"
+	},
+	"textures": {
+		"kimberlite": { "base": "game:block/stone/polishedrock/kimberlite" },
+		"greenmarble": { "base": "game:block/stone/polishedrock/greenmarble" },
+		"sundial_face": { "base": "timepiece:block/sundial_face" }
+	},
+	"collisionbox": null,
+	"selectionbox": { "x1": 0.125, "y1": 0, "z1": 0.125,   "x2": 0.875, "y2": 0.25, "z2": 0.875 },
+	"resistance": 5,
+	"sounds": {
+		"place": "game:block/ceramicplace",
+		"walk": "game:walk/wood2"
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"sideopaque": {
+		"all": false
+	}
+}
